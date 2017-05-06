@@ -1,4 +1,3 @@
-# folder idea
-.idea/
+.*
+.idea
 prepros-6.config
-prepros.cfg
