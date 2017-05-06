@@ -12,3 +12,12 @@ li {list-style: none;}
 	padding: 0 15px;
 	margin: 0 auto;
 }
+.home {background-color: #2ecc71;}
+.main-header {padding: 30px 0 0 0;}
+.logo{
+	font: italic bold 39px/24px "Roboto";
+	color: #f4f4f4;
+	vertical-align: middle;
+	display: inline-block;
+}
+.main-menu {display: inline-block;}
