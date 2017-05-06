@@ -6,6 +6,12 @@ a {
 	text-decoration: none;
 	color: #fff;
 }
+ul a {
+	margin-right: 50px;
+}
+ul a:nth-child(6) {
+	margin: 0;
+}
 li {list-style: none;}
 .content {
 	max-width: 1200px;
@@ -19,5 +25,20 @@ li {list-style: none;}
 	color: #f4f4f4;
 	vertical-align: middle;
 	display: inline-block;
+	margin-right: 330px;
 }
-.main-menu {display: inline-block;}
+.main-menu {
+	display: inline-block;
+	font: 400 18px/30px  "Roboto";
+}
+.main-menu .button {
+	color: #2ecc71;
+	background-color: #ffffff;
+	border-radius: 21px;
+	width: 140px;
+	height: 42px;
+	display: inline-block;
+	font-weight: bold;
+	line-height: 42px;
+	text-align: center;
+}
