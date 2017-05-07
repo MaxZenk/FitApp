@@ -44,7 +44,6 @@ li {list-style: none;}
 	font-weight: bold;
 	line-height: 42px;
 	text-align: center;
-	letter-spacing: 1px;
 }
 .home .head-block {
 	font: 300 64px/60px "Roboto";
@@ -54,6 +53,7 @@ li {list-style: none;}
 	font-weight: bold;
 }
 .home .about-block {
+	font: 300 18px/32px "Roboto";
 }
 .helps-you-eat-better {
 	display: inline-block;
