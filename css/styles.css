@@ -6,21 +6,13 @@ a {
 	text-decoration: none;
 	color: #fff;
 }
-ul a {
-	margin-right: 50px;
-}
-ul a:nth-child(6) {
-	margin: 0;
-}
+ul a {margin-right: 50px;}
+ul a:nth-child(6) {margin: 0;}
 li {list-style: none;}
 .content {
 	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
-}
-.home {
-	background-color: #2ecc71;
-	color: #f4f4f4;
 }
 .main-header {padding: 30px 0 75px 0;}
 .logo {
@@ -28,13 +20,14 @@ li {list-style: none;}
 	color: #f4f4f4;
 	vertical-align: middle;
 	display: inline-block;
+	letter-spacing: 3px;
 }
 .main-menu {
 	display: inline-block;
 	font: 18px/30px  "Roboto";
 	float: right;
 }
-.main-menu .button {
+.button {
 	color: #2ecc71;
 	background-color: #ffffff;
 	border-radius: 21px;
@@ -44,29 +37,57 @@ li {list-style: none;}
 	font-weight: bold;
 	line-height: 42px;
 	text-align: center;
+	letter-spacing: 0.05em;
+}
+.home,
+.main-footer {
+	background-color: #2ecc71;
+	color: #f4f4f4;
+}
+.about-block {
+	font: 300 18px/32px "Roboto";
+	letter-spacing: 0.073em;
 }
 .home .head-block {
 	font: 300 64px/60px "Roboto";
 	margin: 60px 0 20px;
+	letter-spacing: 0.033em;
 }
-.home .head-block span {
+.home .about-block {letter-spacing: 0.039em;}
+.home .head-block span,
+.main-footer .head-block span {
 	font-weight: bold;
 }
-.home .about-block {
-	font: 300 18px/32px "Roboto";
-}
+.home-image {float: right;}
+.button-app {padding: 55px 0 172px;}
 .helps-you-eat-better {
 	display: inline-block;
 	width: 53.65%;
 	padding-top: 125px;
 }
-.home-image {
-	float: right;
+.features-image {margin-left: -39px;}
+.simple-way {background-color: #f9f9f9;}
+.simple-way .content {padding: 115px 185px 0;}
+.simple-way .head-block {
+	font: 300 48px/32px "Roboto";
+	color: #5a5a5a;
 }
-.button-app {
-	padding: 55px 0 172px;
+.simple-way .head-block span {
+	color: #2ecc71;
+}
+.main-footer {padding: 97px 0 100px;}
+.main-footer .head-block {
+	font: 300 48px/60px "Roboto";
+	letter-spacing: 0.033em;
+	margin-bottom: 20px;
+}
+.main-footer .content,
+.simple-way .content {
+	width: 43.62%;
+	text-align: center;
+}
+.main-footer .button {
+	width: 245px;
+	margin-top: 55px;
+}
 
-}
-.features-image {
-	margin-left: -39px;
-}
