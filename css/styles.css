@@ -65,7 +65,7 @@ li {list-style: none;}
 	display: inline-block;
 }
 .googleplay {
-	background: url(../images/Google-Play.png) no-repeat center center;
+	background: url(../images/GooglePlay.png) no-repeat center center;
 	height: 46px;
 	width: 137px;
 	display: inline-block;
@@ -96,25 +96,35 @@ li {list-style: none;}
 }
 .simple-way .head-block span {color: #2ecc71;}
 .block-container {
-	width: 96.38%;
+	width: 95.6%;
+	margin: 0 auto;
 }
 .iPhone-5C-1 {
 	background: url(../images/iPhone-5C-multicolors-1.png) no-repeat center center;
 	width: 253px;
 	height: 531px;
 	float: left;
+	z-index: 100;
+	margin-top: 95px;
 }
 .iPhone-5C-2 {
 	background: url(../images/iPhone-5C-multicolors-2.png) no-repeat center center;
 	width: 253px;
 	height: 531px;
 	float: right;
+	z-index: 100;
+	margin-top: 95px;
 }
 .iPhone-5C-3 {
 	background: url(../images/iPhone-5C-multicolors-3.png) no-repeat center center;
 	width: 338px;
 	height: 708px;
 	margin: 0 auto;
+	z-index: 101;
+	position: relative;
+}
+.manage-you-meal-time {
+z-index: 102;
 }
 .main-footer {padding: 97px 0 100px;}
 .main-footer .head-block {
