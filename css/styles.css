@@ -20,7 +20,6 @@ li {list-style: none;}
 	color: #f4f4f4;
 	vertical-align: middle;
 	display: inline-block;
-	letter-spacing: 3px;
 }
 .main-menu {
 	display: inline-block;
@@ -37,48 +36,89 @@ li {list-style: none;}
 	font-weight: bold;
 	line-height: 42px;
 	text-align: center;
-	letter-spacing: 0.05em;
 }
 .home,
 .main-footer {
 	background-color: #2ecc71;
 	color: #f4f4f4;
 }
+.app-icon {
+	background: url(../images/App-Icon.png) no-repeat center center;
+	width: 111px;
+	height: 111px;
+}
 .about-block {
 	font: 300 18px/32px "Roboto";
-	letter-spacing: 0.073em;
 }
 .home .head-block {
 	font: 300 64px/60px "Roboto";
 	margin: 60px 0 20px;
-	letter-spacing: 0.033em;
 }
-.home .about-block {letter-spacing: 0.039em;}
 .home .head-block span,
 .main-footer .head-block span {
 	font-weight: bold;
 }
-.home-image {float: right;}
+.appstore {
+	background: url(../images/Appstore.png) no-repeat center center;
+	height: 46px;
+	width: 130px;
+	display: inline-block;
+}
+.googleplay {
+	background: url(../images/Google Play.png) no-repeat center center;
+	height: 46px;
+	width: 137px;
+	display: inline-block;
+}
+.home-image {
+	float: right;
+	background: url(../images/home-iPhone-5C.png) no-repeat center center;
+	height: 753px;
+	width: 405px;
+}
 .button-app {padding: 55px 0 172px;}
 .helps-you-eat-better {
 	display: inline-block;
 	width: 53.65%;
-	padding-top: 125px;
+	padding-top: 129px;
 }
-.features-image {margin-left: -39px;}
+.features-image {
+	margin-left: -39px;
+	background: url(../images/features-iPhone-5C.png) no-repeat center center;
+	width: 443px;
+	height: 784px;
+}
 .simple-way {background-color: #f9f9f9;}
 .simple-way .content {padding: 115px 185px 0;}
 .simple-way .head-block {
 	font: 300 48px/32px "Roboto";
 	color: #5a5a5a;
 }
-.simple-way .head-block span {
-	color: #2ecc71;
+.simple-way .head-block span {color: #2ecc71;}
+.block-container {
+	width: 96.38%;
+}
+.iPhone-5C-1 {
+	background: url(../images/iPhone-5C-multicolors-1.png) no-repeat center center;
+	width: 253px;
+	height: 531px;
+	float: left;
+}
+.iPhone-5C-2 {
+	background: url(../images/iPhone-5C-multicolors-2.png) no-repeat center center;
+	width: 253px;
+	height: 531px;
+	float: right;
+}
+.iPhone-5C-3 {
+	background: url(../images/iPhone-5C-multicolors-3.png) no-repeat center center;
+	width: 338px;
+	height: 708px;
+	margin: 0 auto;
 }
 .main-footer {padding: 97px 0 100px;}
 .main-footer .head-block {
 	font: 300 48px/60px "Roboto";
-	letter-spacing: 0.033em;
 	margin-bottom: 20px;
 }
 .main-footer .content,
