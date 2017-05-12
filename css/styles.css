@@ -23,7 +23,7 @@ li {list-style: none;}
 }
 .main-menu {
 	display: inline-block;
-	font: 18px/30px  "Roboto";
+	font: 18px/30px "Roboto";
 	float: right;
 }
 .button {
@@ -92,15 +92,19 @@ li {list-style: none;}
 	background-color: #f9f9f9;
 	overflow: hidden;
 }
-.simple-way .content {padding: 115px 185px 0;}
-.simple-way .head-block {
+.simple-way .content {padding: 85px 185px 0;}
+.simple-way .head-block,
+.manage-you-meal-time .head-block {
 	font: 300 48px/32px "Roboto";
 	color: #5a5a5a;
 }
-.simple-way .head-block span {color: #2ecc71;}
+.simple-way .head-block span,
+.manage-you-meal-time .head-block span {
+	color: #2ecc71;
+}
 .block-container {
 	width: 95.6%;
-	margin: 0 auto -165px;
+	margin: 95px auto -165px;
 }
 .iPhone-5C-1 {
 	background: url(../images/iPhone-5C-multicolors-1.png) no-repeat center center;
@@ -126,8 +130,66 @@ li {list-style: none;}
 	z-index: 101;
 	position: relative;
 }
-.manage-you-meal-time {
-
+.manage-you-meal-time > .content{
+	padding: 150px 0;
+}
+.manage-you-meal-time-container-text,
+.manage-you-meal-time-container-food {
+	width: 49.777777777%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.food {
+	border: solid 2px #ededed;
+	border-radius: 8px;
+	background-color: #ffffff;
+}
+.apple-image {
+	background: url(../images/apple.png) no-repeat center center;
+	width: 94px;
+	height: 56px;
+	display: inline-block;
+	margin-right: 15px;
+}
+.apple-text,
+.sandwich-text,
+.salad-text {
+	display: inline-block;
+}
+.apple-text .head,
+.sandwich-text .head,
+.salad-text .head {
+	font: bold 16px/22px "Roboto";
+	color: #2ecc71;
+}
+.apple-text .about,
+.sandwich-text .about,
+.salad-text .about {
+	font: 300 12px/17px "Roboto";
+	color: #5a5a5a;
+}
+.apple-text .before-about,
+.sandwich-text .before-about,
+.salad-text .before-about {
+	font: bold 12px/24px "Roboto";
+	text-transform: uppercase;
+	color: #2ecc71;
+}
+.time {
+	display: inline-block;
+}
+.sandwich-image {
+	background: url(../images/sandwich.png) no-repeat center center;
+	width: 138px;
+	height: 102px;
+	display: inline-block;
+	margin-right: 5px;
+}
+.salad-image {
+	background: url(../images/salad-witch-chicken.png) center center;
+	width: 112px;
+	height: 57px;
+	display: inline-block;
 }
 .main-footer {padding: 97px 0 100px;}
 .main-footer .head-block {
@@ -143,4 +205,3 @@ li {list-style: none;}
 	width: 245px;
 	margin-top: 55px;
 }
-
