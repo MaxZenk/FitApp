@@ -180,8 +180,8 @@ li {list-style: none;}
 }
 .sandwich-image {
 	background: url(../images/sandwich.png) no-repeat center center;
-	width: 138px;
-	height: 102px;
+	width: 124px;
+	height: 86px;
 	display: inline-block;
 	margin-right: 5px;
 }
