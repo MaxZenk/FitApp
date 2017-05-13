@@ -91,8 +91,8 @@ li {list-style: none;}
 .simple-way {
 	background-color: #f9f9f9;
 	overflow: hidden;
+	padding-top: 85px;
 	text-align: center;
-	padding: 85px 185px 0;
 }
 
 .simple-way .head-block,
@@ -100,13 +100,16 @@ li {list-style: none;}
 	font: 300 48px/32px "Roboto";
 	color: #5a5a5a;
 }
+.simple-way .about-block {
+	margin-bottom: 95px;
+}
 .simple-way .head-block span,
 .manage-you-meal-time .head-block span {
 	color: #2ecc71;
 }
 .block-container {
-	width: 95.6%;
-	margin: 95px auto -165px;
+	width: 67.91%;
+	margin: 0 auto -165px;
 }
 .iPhone-5C-1 {
 	background: url(../images/iPhone-5C-multicolors-1.png) no-repeat center center;
@@ -208,10 +211,7 @@ li {list-style: none;}
 	height: 57px;
 	display: inline-block;
 }
-.main-footer {
-	padding: 97px 0 100px;
-	text-align: center;
-}
+.main-footer {padding: 97px 0 100px;}
 .main-footer .head-block {
 	font: 300 48px/60px "Roboto";
 	margin-bottom: 20px;
