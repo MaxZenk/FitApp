@@ -91,8 +91,10 @@ li {list-style: none;}
 .simple-way {
 	background-color: #f9f9f9;
 	overflow: hidden;
+	text-align: center;
+	padding: 85px 185px 0;
 }
-.simple-way .content {padding: 85px 185px 0;}
+
 .simple-way .head-block,
 .manage-you-meal-time .head-block {
 	font: 300 48px/32px "Roboto";
@@ -206,16 +208,15 @@ li {list-style: none;}
 	height: 57px;
 	display: inline-block;
 }
-.main-footer {padding: 97px 0 100px;}
+.main-footer {
+	padding: 97px 0 100px;
+	text-align: center;
+}
 .main-footer .head-block {
 	font: 300 48px/60px "Roboto";
 	margin-bottom: 20px;
 }
-.main-footer .content,
-.simple-way .content {
-	width: 43.62%;
-	text-align: center;
-}
+
 .main-footer .button {
 	width: 245px;
 	margin-top: 55px;
