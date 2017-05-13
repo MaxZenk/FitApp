@@ -169,6 +169,13 @@ li {list-style: none;}
 	font: 300 12px/17px "Roboto";
 	color: #5a5a5a;
 }
+.before-about .circle {
+	width: 3px;
+	height: 3px;
+	border-radius: 80%;
+	background-color: #b4b4b4;
+	display: inline-block;
+}
 .apple-text .before-about,
 .sandwich-text .before-about,
 .salad-text .before-about {
