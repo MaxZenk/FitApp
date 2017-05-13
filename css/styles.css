@@ -142,6 +142,8 @@ li {list-style: none;}
 	border: solid 2px #ededed;
 	border-radius: 8px;
 	background-color: #ffffff;
+	width: 420px;
+	height: 108px;
 }
 .apple-image {
 	background: url(../images/apple.png) no-repeat center center;
