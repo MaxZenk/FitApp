@@ -130,20 +130,25 @@ li {list-style: none;}
 	z-index: 101;
 	position: relative;
 }
-.manage-you-meal-time > .content{
-	padding: 150px 0;
+
+.manage-you-meal-time-container-text {
+	width: 54.4%;
+	display: inline-block;
 }
-.manage-you-meal-time-container-text,
 .manage-you-meal-time-container-food {
-	width: 49.777777777%;
 	display: inline-block;
 }
 .food {
-	border: solid 2px #ededed;
+	border: solid 1px #ededed;
 	border-radius: 8px;
 	background-color: #ffffff;
 	width: 420px;
 	height: 108px;
+	margin: auto auto 25px auto;
+}
+.food:nth-child(2) {
+	width: 525px;
+	height: 135px;
 }
 .apple-image {
 	background: url(../images/apple.png) no-repeat center center;
@@ -175,6 +180,8 @@ li {list-style: none;}
 	border-radius: 80%;
 	background-color: #b4b4b4;
 	display: inline-block;
+	vertical-align: middle;
+	margin: 0 5px;
 }
 .apple-text .before-about,
 .sandwich-text .before-about,
