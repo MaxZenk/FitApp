@@ -94,7 +94,6 @@ li {list-style: none;}
 	padding-top: 85px;
 	text-align: center;
 }
-
 .simple-way .head-block,
 .manage-you-meal-time .head-block {
 	font: 300 48px/32px "Roboto";
@@ -107,7 +106,7 @@ li {list-style: none;}
 .manage-you-meal-time .head-block span {
 	color: #2ecc71;
 }
-.block-container {
+.simple-way-container {
 	width: 67.91%;
 	margin: 0 auto -165px;
 }
@@ -211,7 +210,10 @@ li {list-style: none;}
 	height: 57px;
 	display: inline-block;
 }
-.main-footer {padding: 97px 0 100px;}
+.main-footer {
+	padding: 97px 0 100px;
+	text-align: center;
+}
 .main-footer .head-block {
 	font: 300 48px/60px "Roboto";
 	margin-bottom: 20px;
