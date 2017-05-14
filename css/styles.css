@@ -134,7 +134,7 @@ li {list-style: none;}
 }
 .manage-you-meal-time {padding: 150px 0 145px;}
 .manage-you-meal-time-container-text {
-	width: 55%;
+	width: 54.74%;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -152,7 +152,7 @@ li {list-style: none;}
 	padding: 25px 20px;
 }
 .food:nth-child(2) {
-	width: 480px;
+	width: 483px;
 	margin: 30px auto;
 }
 .apple-image {
@@ -218,6 +218,13 @@ li {list-style: none;}
 	font-size: 16px;
 	color: #b4b4b4;
 	text-transform: uppercase;
+}
+.apple .time {
+	color: #b4b4b4;
+}
+.sandwich .time {
+	font: bold 31px/17px "Roboto";
+	margin-top: 5%;
 }
 .sandwich-image {
 	background: url(../images/sandwich.png) no-repeat center center;
