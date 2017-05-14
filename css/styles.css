@@ -144,26 +144,29 @@ li {list-style: none;}
 	border: solid 1px #ededed;
 	border-radius: 8px;
 	background-color: #ffffff;
-	width: 420px;
-	height: 108px;
-	margin: auto auto 25px auto;
+	width: 380px;
+	margin: 0 auto;
 	box-shadow: 0 0 60px rgba(15,65,36,0.05);
+	padding: 25px 20px;
 }
 .food:nth-child(2) {
 	width: 525px;
 	height: 135px;
+	margin: 25px auto;
 }
 .apple-image {
 	background: url(../images/apple.png) no-repeat center center;
 	width: 94px;
 	height: 56px;
 	display: inline-block;
-	margin-right: 15px;
+	vertical-align: middle;
 }
 .apple-text,
 .sandwich-text,
 .salad-text {
 	display: inline-block;
+	vertical-align: middle;
+	margin: 0 40px 0 20px;
 }
 .apple-text .head,
 .sandwich-text .head,
@@ -195,6 +198,14 @@ li {list-style: none;}
 }
 .time {
 	display: inline-block;
+	text-align: right;
+	text-transform: uppercase;
+	font: bold 25px/17px "Roboto";
+	color: #b4b4b4;
+	vertical-align: middle;
+}
+.time span {
+	font-size: 16px;
 }
 .sandwich-image {
 	background: url(../images/sandwich.png) no-repeat center center;
@@ -202,12 +213,14 @@ li {list-style: none;}
 	height: 86px;
 	display: inline-block;
 	margin-right: 5px;
+	vertical-align: middle;
 }
 .salad-image {
 	background: url(../images/salad-witch-chicken.png) center center;
 	width: 112px;
 	height: 57px;
 	display: inline-block;
+	vertical-align: middle;
 }
 .main-footer {
 	padding: 97px 0 100px;
