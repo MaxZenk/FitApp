@@ -116,7 +116,6 @@ li {list-style: none;}
 	width: 253px;
 	height: 531px;
 	float: left;
-	z-index: 100;
 	margin-top: 95px;
 }
 .iPhone-5C-2 {
@@ -124,7 +123,6 @@ li {list-style: none;}
 	width: 253px;
 	height: 531px;
 	float: right;
-	z-index: 100;
 	margin-top: 95px;
 }
 .iPhone-5C-3 {
@@ -132,7 +130,6 @@ li {list-style: none;}
 	width: 338px;
 	height: 708px;
 	margin: 0 auto;
-	z-index: 101;
 	position: relative;
 }
 
@@ -150,6 +147,7 @@ li {list-style: none;}
 	width: 420px;
 	height: 108px;
 	margin: auto auto 25px auto;
+	box-shadow: 0 0 60px rgba(15,65,36,0.05);
 }
 .food:nth-child(2) {
 	width: 525px;
