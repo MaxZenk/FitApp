@@ -134,11 +134,13 @@ li {list-style: none;}
 }
 .manage-you-meal-time {padding: 150px 0 145px;}
 .manage-you-meal-time-container-text {
-	width: 54.4%;
+	width: 55%;
 	display: inline-block;
+	vertical-align: middle;
 }
 .manage-you-meal-time-container-food {
 	display: inline-block;
+	vertical-align: middle;
 }
 .food {
 	border: solid 1px #ededed;
@@ -151,7 +153,7 @@ li {list-style: none;}
 }
 .food:nth-child(2) {
 	width: 480px;
-	margin: 25px auto;
+	margin: 30px auto;
 }
 .apple-image {
 	background: url(../images/apple.png) no-repeat center center;
