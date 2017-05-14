@@ -170,15 +170,21 @@ li {list-style: none;}
 	margin: 0 40px 0 20px;
 }
 .apple-text .head,
-.sandwich-text .head,
 .salad-text .head {
 	font: bold 16px/22px "Roboto";
 	color: #2ecc71;
 }
+.sandwich-text .head {
+	font: bold 20px/28px "Roboto";
+	color: #2ecc71;
+}
 .apple-text .about,
-.sandwich-text .about,
 .salad-text .about {
 	font: 300 12px/17px "Roboto";
+	color: #5a5a5a;
+}
+.sandwich-text .about {
+	font: bold 15px/21px "Roboto";
 	color: #5a5a5a;
 }
 .before-about .circle {
@@ -191,10 +197,13 @@ li {list-style: none;}
 	margin: 0 5px;
 }
 .apple-text .before-about,
-.sandwich-text .before-about,
 .salad-text .before-about {
 	font: bold 12px/24px "Roboto";
 	text-transform: uppercase;
+	color: #2ecc71;
+}
+.sandwich-text .before-about {
+	font: bold 15px/28px "Roboto";
 	color: #2ecc71;
 }
 .time {
@@ -202,7 +211,8 @@ li {list-style: none;}
 	text-align: right;
  	font: bold 25px/17px "Roboto";
 	color: #2ecc71;
-	vertical-align: middle;
+	margin-top: 3%;
+	float: right;
 }
 .time span {
 	font-size: 16px;
