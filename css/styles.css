@@ -205,6 +205,7 @@ li {list-style: none;}
 .sandwich-text .before-about {
 	font: bold 15px/28px "Roboto";
 	color: #2ecc71;
+	text-transform: uppercase;
 }
 .time {
 	display: inline-block;
@@ -251,9 +252,7 @@ li {list-style: none;}
 	font: 300 48px/60px "Roboto";
 	margin-bottom: 20px;
 }
-
 .main-footer .button {
 	width: 245px;
 	margin-top: 55px;
 }
-
